@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title style="font-family:Cambria"> hello! ;)</title>
+    </head>
+    <body>
+        <h1 style="font-family:Cambria">desine iz me pazzin)</h1>
+
+        <div id = youtube>
+        </div>
+            <p><button class="button" onclick="playVideo()">Reveal Youtube Video</button></p>
+        <div>
+            <h2>Video</h2>
+            <video id ="video" width="560" autoplay muted>
+                <source src="video1.mp4" type="video/mpeg">
+            </video>
+            <h2>Audio</h2>
+            <audio controls autoplay muted>
+                <source src="pokemon.mp3" type="audio/mpeg">
+            </audio>
+
+            <h2>Object</h2>
+            <object width="560" height = "315" data="https://www.youtube.com/embed/B5GcpNxD8IQ">
+            
+        
+            </object>
+            </div>
+
+            <div>
+           <h2>RSS Feed</h2>
+           <script src="https://www.feedroll.com/rssviewer/feed2js.php?src=https%3A%2F%2Fwww.nasa.gov%2Frss%2Fdyn%2Flg_image_of_the_day.rss&chan=y&num=5&desc=1&utf=y"  charset="UTF-8" type="text/javascript"></script>
+            <a href="https://www.feedroll.com/rssviewer/feed2js.php?src=https%3A%2F%2Fwww.nasa.gov%2Frss%2Fdyn%2Flg_image_of_the_day.rss&chan=y&num=5&desc=1&utf=y&html=y">View RSS feed</a>
+            </div>
+
+        <div>
+            <h2 style="font-family:Cambria">togepi or not togepi</h2>
+            <img src= "https://sadmoment.com/wp-content/uploads/2013/08/Sad-Togepi-Pokemon-Meme.jpg"
+            title= "egg" style = "width:420px">
+        </div>
+
+        <div>
+            <h3 style="font-family:Cambria">im a map im a map im a map</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2689.1513176647527!2d-122.13538028468017!3d47.6231897948255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54906da56824cda5%3A0x45e52e0e5ad1c6df!2sHappy%20Lamb%20Hot%20Pot%2C%20Bellevue!5e0!3m2!1sen!2sus!4v1633644321600!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </body>
+
+</html>
+
+<script>
+    function playVideo(){
+        var frame = document.getElementById("youtube");
+        frame.innerHTML += "<iframe width='560' height='315' src='https://www.youtube.com/embed/8G9SyBNdxfI?start=180' title='Ludwig Video' frameborder='0'allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture'; allowfullscreen> </iframe>";
+    }
+
+</script>
+
+<script language="JavaScript" src="https://www.feedroll.com/rssviewer/feed2js.php?src=https%3A%2F%2Fwww.nasa.gov%2Frss%2Fdyn%2Flg_image_of_the_day.rss&chan=y&num=5&desc=1&utf=y"  charset="UTF-8" type="text/javascript"></script>
+
+
+
